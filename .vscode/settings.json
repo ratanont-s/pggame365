@@ -1,0 +1,5 @@
+{
+    "liveSassCompile.settings.includeItems": [
+        "scss/pggame365.scss"
+    ]
+}

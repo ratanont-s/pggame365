@@ -1,0 +1,29 @@
+// Button
+.btn {
+    img {
+        max-width: 100%;
+        vertical-align: initial;
+    }
+}
+
+// Red
+.btn-red {
+    background: $bg-btn-red;
+    color: $white;
+
+    &:hover {
+        color: $white;
+        filter: brightness(1.1);
+    }
+}
+
+// Green
+.btn-green {
+    background: $bg-btn-green;
+    color: $white;
+
+    &:hover {
+        color: $white;
+        filter: brightness(1.1);
+    }
+}
