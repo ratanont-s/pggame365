@@ -1,0 +1,21 @@
+#navBottom {
+    background: $bg-nav-bottom;
+    box-shadow: 0 -3px 6px rgba($black, .25);
+
+    .nav {
+        &-link {
+            padding: 10px;
+            color: $white;
+
+            &.bg-red {
+                background: $red;
+            }
+
+            >* {
+                display: block;
+                text-align: center;
+                margin: 0 auto 4px;
+            }
+        }
+    }
+}

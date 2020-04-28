@@ -29,6 +29,7 @@ header {
 
     .nav {
         &-link {
+            text-align: center;
             padding-left: 1rem;
             padding-right: 1rem;
             @include font-size(15.5);
@@ -57,6 +58,30 @@ header {
         .navbar {
             padding-top: 0;
             padding-bottom: 0;
+        }
+
+        .btn {
+            &-login {
+                position: relative;
+                background: linear-gradient(to top, #5a3b02, #93894a, #704b07, #704a09, #664204, #704a00, #a2821f, #fff094, #d1b14e, #fff094, #704a09, #e8c75c, #e8c75c);
+                color: $white;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: calc(100% - 4px);
+                    height: calc(100% - 4px);
+                    background-image: linear-gradient(to top, #191919, #090909);
+                    border-radius: 10rem;
+                }
+
+                >* {
+                    position: relative;
+                }
+            }
         }
     }
 }

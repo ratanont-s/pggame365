@@ -3,6 +3,7 @@
     img {
         max-width: 100%;
         vertical-align: initial;
+        margin-right: 0.5rem;
     }
 }
 
@@ -25,5 +26,28 @@
     &:hover {
         color: $white;
         filter: brightness(1.1);
+    }
+}
+
+// play
+.btn-play {
+    background: $bg-btn-play;
+    position: relative;
+    color: $white;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: calc(100% - 4px);
+        height: calc(100% - 4px);
+        background-image: linear-gradient(to bottom, #000000, #4e0000);
+        border-radius: 10rem;
+    }
+
+    >* {
+        position: relative;
     }
 }

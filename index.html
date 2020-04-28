@@ -29,8 +29,10 @@
                         <img src="./assets/images/logo.png" alt="PGGAME365">
                     </a>
                 </div>
-                <button class="btn btn-red mr-1"><img src="./assets/images/icon_check.png" alt=""> สมัครสมาชิก</button>
-                <button class="btn btn-green"><img src="./assets/images/icon_lock.png" alt=""> เข้าสู่ระบบ</button>
+                <button class="btn btn-red mr-1 d-none d-lg-block"><img src="./assets/images/icon_check.png" alt="">
+                    สมัครสมาชิก</button>
+                <button class="btn btn-green btn-login"><img src="./assets/images/icon_lock.png"
+                        alt=""><span>เข้าสู่ระบบ</span></button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
@@ -61,6 +63,8 @@
                 <source src="./assets/videos/Fortune_Gods.mp4" type="video/mp4" />
             </video>
             <div class="features">
+                <button class="btn btn-red d-lg-none"><img src="./assets/images/icon_check.png" alt="">
+                    สมัครสมาชิก</button>
                 <div class="container">
                     <div class="form-row">
                         <div class="col-md d-flex align-items-center justify-content-md-center">
@@ -104,7 +108,7 @@
                 </div>
             </div>
         </section>
-        <section id="banner">
+        <section id="banner" class="d-none d-lg-block">
             <div class="container">
                 <div class="banner">
                     <div class="banner-item">
@@ -119,7 +123,7 @@
                 </div>
             </div>
         </section>
-        <section id="fiveBrand">
+        <section id="fiveBrand" class="d-none d-lg-block">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-auto">
@@ -185,7 +189,7 @@
             <section id="friend">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-xl-auto">
+                        <div class="col-xl-auto d-none d-lg-block">
                             <h2 class="friend-title mb-xl-0">
                                 ระบบแนะนำเพื่อน
                                 <small>สร้างรายได้เดือนละ</small>
@@ -193,28 +197,46 @@
                             </h2>
                         </div>
                         <div class="col-xl">
-                            <div class="row">
-                                <div class="col-md">
+                            <div class="form-row">
+                                <div class="col-4">
                                     <div class="friend-step">
-                                        <img src="./assets/images/friend_step_1.png" alt="" class="friend-step-img">
+                                        <picture class="friend-step-img">
+                                            <source media="(max-width: 991px)"
+                                                srcset="./assets/images/friend_step_1_mb.png">
+                                            <source media="(min-width: 992px)"
+                                                srcset="./assets/images/friend_step_1.png">
+                                            <img src="./assets/images/friend_step_1_mb.png" alt="">
+                                        </picture>
                                         <h3 class="friend-step-title">
                                             สมัครสมาชิก
                                             <small>PGGAME365.COM</small>
                                         </h3>
                                     </div>
                                 </div>
-                                <div class="col-md">
+                                <div class="col-4">
                                     <div class="friend-step">
-                                        <img src="./assets/images/friend_step_2.png" alt="" class="friend-step-img">
+                                        <picture class="friend-step-img">
+                                            <source media="(max-width: 991px)"
+                                                srcset="./assets/images/friend_step_2_mb.png">
+                                            <source media="(min-width: 992px)"
+                                                srcset="./assets/images/friend_step_2.png">
+                                            <img src="./assets/images/friend_step_2_mb.png" alt="">
+                                        </picture>
                                         <h3 class="friend-step-title">
                                             ชวนเพื่อน
                                             <small>มาเล่นกับพวกเรา</small>
                                         </h3>
                                     </div>
                                 </div>
-                                <div class="col-md">
+                                <div class="col-4">
                                     <div class="friend-step">
-                                        <img src="./assets/images/friend_step_3.png" alt="" class="friend-step-img">
+                                        <picture class="friend-step-img">
+                                            <source media="(max-width: 991px)"
+                                                srcset="./assets/images/friend_step_3_mb.png">
+                                            <source media="(min-width: 992px)"
+                                                srcset="./assets/images/friend_step_3.png">
+                                            <img src="./assets/images/friend_step_3_mb.png" alt="">
+                                        </picture>
                                         <h3 class="friend-step-title">
                                             รับค่าคอม 0.6%
                                             <small>ตลอดชีวิตรับได้ 3 ชั้น</small>
@@ -228,32 +250,40 @@
             </section>
             <section id="detail1">
                 <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 text-center">
-                            <img src="./assets/images/img_detail1.png" alt="" class="detail-img">
-                        </div>
-                        <div class="col-lg-6">
-                            <h2>ยินดีต้อนรับเข้าสู่ PGGAME365.COM</h2>
-                            <p>สล็อตน้องใหม่ มาแรงในปีนี้ ด้วยความเป็นสล็อตรูปแบบใหม่แนวตั้ง
-                                เป็นภาพ 3D คมชัดสมจริง สนุก เพลิดเพลิน กำลังเป็นที่นิยมมากที่สุด
-                                ในปัจจุบันนี้ และยังมาพร้อมกับโปรโมชั่นดี ๆ ให้นักพนันทุกท่าน
-                                สมัครสมาชิกใหม่วันนี้ รับทันที! โบนัส 50% แอดไลน์ ไปที่
-                                >> Line : <a href="#" target="_blank" rel="noopener noreferrer">@pggame365</a>
-                                (มี@นำหน้า) และยังมีโปรโมชั่นอื่นๆ ที่น่าสนใจ
-                                อีกมากมาย คลิ๊ก >> <a href="#">โปรโมชั่น</a> และท่านยังสามารทติดตามข้อมูล
-                                ข่าวสารต่าง ๆ ได้ที่ เว็บไซต์ <a href="#">www.pggame365.com</a>
-                                หรือแอดไลน์ไปที่ Line : <a href="#" target="_blank"
-                                    rel="noopener noreferrer">@pggame365</a> (มี@นำหน้า)</p>
-                            <div class="text-center">
-                                <button class="btn btn-red"><img src="./assets/images/icon_check.png" alt="">
-                                    สมัครสมาชิก</button>
+                    <div class="detail-box">
+                        <img src="./assets/images/pg.png" alt="" class="detail-pg d-lg-none">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <h2>ยินดีต้อนรับเข้าสู่ PGGAME365.COM</h2>
+                                <p>สล็อตน้องใหม่ มาแรงในปีนี้ ด้วยความเป็นสล็อตรูปแบบใหม่แนวตั้ง
+                                    เป็นภาพ 3D คมชัดสมจริง สนุก เพลิดเพลิน กำลังเป็นที่นิยมมากที่สุด
+                                    ในปัจจุบันนี้ และยังมาพร้อมกับโปรโมชั่นดี ๆ ให้นักพนันทุกท่าน
+                                    สมัครสมาชิกใหม่วันนี้ รับทันที! โบนัส 50% แอดไลน์ ไปที่
+                                    >> Line : <a href="#" target="_blank" rel="noopener noreferrer">@pggame365</a>
+                                    (มี@นำหน้า) และยังมีโปรโมชั่นอื่นๆ ที่น่าสนใจ
+                                    อีกมากมาย คลิ๊ก >> <a href="#">โปรโมชั่น</a> และท่านยังสามารทติดตามข้อมูล
+                                    ข่าวสารต่าง ๆ ได้ที่ เว็บไซต์ <a href="#">www.pggame365.com</a>
+                                    หรือแอดไลน์ไปที่ Line : <a href="#" target="_blank"
+                                        rel="noopener noreferrer">@pggame365</a> (มี@นำหน้า)</p>
+                                <div class="text-center">
+                                    <button class="btn btn-red d-none d-lg-block"><img
+                                            src="./assets/images/icon_check.png" alt="">
+                                        สมัครสมาชิก</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-lg-first text-center">
+                                <picture class="detail-img">
+                                    <source media="(max-width: 991px)" srcset="./assets/images/img_detail_mb.png">
+                                    <source media="(min-width: 992px)" srcset="./assets/images/img_detail1.png">
+                                    <img src="./assets/images/img_detail_mb.png" alt="">
+                                </picture>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
-        <section id="detail2">
+        <section id="detail2" class="d-none d-lg-block">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 order-lg-last text-center">
@@ -282,30 +312,41 @@
                     เพลินเพลินไปกับเกมสล็อตออนไลน์มากกว่า 100 เกมส์
                     <span class="d-block">ภาพสวย กราฟฟิคคมชัด สนุกได้เงินง่าย!</span>
                 </h2>
-                <div class="form-row justify-content-center text-center">
-                    <div class="col-6 col-sm-4 col-md">
+                <div class="slot">
+                    <div class="slot-item">
                         <a href="http://" target="_blank" rel="noopener noreferrer" class="slot-link">
                             <img src="./assets/images/slot_1.jpg" alt="" class="slot-img">
+                            <button class="btn btn-play"><span>PLAY</span></button>
                         </a>
                     </div>
-                    <div class="col-6 col-sm-4 col-md">
+                    <div class="slot-item">
                         <a href="http://" target="_blank" rel="noopener noreferrer" class="slot-link">
                             <img src="./assets/images/slot_2.jpg" alt="" class="slot-img">
+                            <button class="btn btn-play"><span>PLAY</span></button>
                         </a>
                     </div>
-                    <div class="col-6 col-sm-4 col-md">
+                    <div class="slot-item">
                         <a href="http://" target="_blank" rel="noopener noreferrer" class="slot-link">
                             <img src="./assets/images/slot_3.jpg" alt="" class="slot-img">
+                            <button class="btn btn-play"><span>PLAY</span></button>
                         </a>
                     </div>
-                    <div class="col-6 col-sm-4 col-md">
+                    <div class="slot-item">
                         <a href="http://" target="_blank" rel="noopener noreferrer" class="slot-link">
                             <img src="./assets/images/slot_4.jpg" alt="" class="slot-img">
+                            <button class="btn btn-play"><span>PLAY</span></button>
                         </a>
                     </div>
-                    <div class="col-6 col-sm-4 col-md">
+                    <div class="slot-item">
                         <a href="http://" target="_blank" rel="noopener noreferrer" class="slot-link">
                             <img src="./assets/images/slot_5.jpg" alt="" class="slot-img">
+                            <button class="btn btn-play"><span>PLAY</span></button>
+                        </a>
+                    </div>
+                    <div class="slot-item">
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="slot-link">
+                            <img src="./assets/images/slot_1.jpg" alt="" class="slot-img">
+                            <button class="btn btn-play"><span>PLAY</span></button>
                         </a>
                     </div>
                 </div>
@@ -313,7 +354,11 @@
         </section>
         <section id="brand">
             <div class="container">
-                <h2>สมัครครั้งเดียวเล่นได้ทุกเกมส์ <span>ไม่ต้องโยกเงิน</span></h2>
+                <h2>
+                    <span class="d-block d-lg-none">เว็บเดียวจบครบทุกแบรนด์</span>
+                    <span class="d-none d-lg-inline-block">สมัครครั้งเดียวเล่นได้ทุกเกมส์</span>
+                    <strong>ไม่ต้องโยกเงิน</strong>
+                </h2>
                 <ul class="brand-list">
                     <li class="brand-list-item">
                         <a href="http://" target="_blank" rel="noopener noreferrer" class="brand-link">
@@ -351,20 +396,61 @@
     </main>
     <footer>
         <div class="container">
-            <img src="./assets/images/banks.png" alt="Banks" class="footer-banks">
+            <p>
+                <picture class="footer-banks">
+                    <source media="(max-width: 991px)" srcset="./assets/images/banks_mb.png">
+                    <source media="(min-width: 992px)" srcset="./assets/images/banks.png">
+                    <img src="./assets/images/banks_mb.png" alt="">
+                </picture>
+            </p>
             <p class="footer-text">COPYRIGHT @2020 WWW.PGGAME365.COM ALL RIGHT RESERVED.</p>
         </div>
     </footer>
 
+    <!-- Nav bottom -->
+    <ul id="navBottom" class="nav nav-fill fixed-bottom d-lg-none">
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-home"></i>
+                หน้าแรก
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-percentage"></i>
+                โปรโมชั่น
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link bg-red" href="#">
+                <i class="fas fa-user-plus"></i>
+                สมัครสมาชิก
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-gamepad"></i>
+                ทดลองเล่น
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-headset"></i>
+                ติดต่อเรา
+            </a>
+        </li>
+    </ul>
+
     <!-- JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.8.1/video.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="./assets/js/pggame365.js"></script>
     <script>
         $(function () {
-            $('.banner').slick({
+            $('#banner .banner').slick({
                 autoplay: true,
                 dots: true,
                 centerMode: true,
@@ -374,6 +460,21 @@
                     breakpoint: 768,
                     settings: {
                         arrows: false,
+                    }
+                }]
+            });
+            $('#slot .slot').slick({
+                autoplay: false,
+                arrows: false,
+                dots: false,
+                slidesToShow: 5,
+                centerMode: true,
+                centerPadding: '0px',
+                initialSlide: 2,
+                responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
                     }
                 }]
             });
