@@ -3,6 +3,7 @@ header {
         &-toggler {
             padding: 0;
             margin-right: 0.75rem;
+            border-radius: 0 !important;
 
             &:focus {
                 outline: none;
